@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F8F9FA;
+}
+
+.navbar-brand {
+    font-family: "Josefin Sans", serif;
+    font-size: 30px;
+}
+
+.nav-item {
+    font-size: 18px;
+    padding: 5px 30px;
+    font-family: "Josefin Sans", serif;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #9BAD74;
+    /* color: #f1eae6 ; */
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #9BAD74;
+    color: #9BAD74 !important;
+}
+
+
+.container-fluid {
+    background-color: black;
+    min-height: 70vh;
+    color: #F8F9FA;
+    background-color: black;
+    min-height: 70vh;
+    color: #F8F9FA;
+    display: flex;              
+    align-items: center;        
+    justify-content: center;
+}
+.title {
+    font-family: "Josefin Sans", serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #F4F4F4;
+}
+
+.text-paragraph {
+    font-family: "Cormorant", serif;
+    font-size: 25px;
+    color: #F4F4F4;
+    font-weight: lighter;
+}
+.title2 {
+    font-family: "Josefin Sans", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.text-paragraph2 {
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    color: #616161;
+    font-weight: lighter;
+}
+.text-paragraph3{
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    color: #616161;
+    font-weight: bold;
+}
+.read-more {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 0px 5px;
+    color: #9BAD74;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+}
+
+.read-more:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    font-family: "Josefin Sans", serif;
+    padding: 20px;
+    background: #F4F4F4;
+    color: #333;
+}

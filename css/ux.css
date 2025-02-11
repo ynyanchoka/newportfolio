@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F8F9FA;
+}
+
+.navbar-brand {
+    font-family: "Josefin Sans", serif;
+    font-size: 30px;
+}
+
+.nav-item {
+    font-size: 18px;
+    padding: 5px 30px;
+    font-family: "Josefin Sans", serif;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #9BAD74;
+    /* color: #f1eae6 ; */
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #9BAD74;
+    color: #9BAD74 !important;
+}
+
+.case-study {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-study .card {
+    max-width: 70em;
+    min-height: 330px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 0px;
+    border-color: none !important;
+}
+
+.case-study .card img {
+    max-width: 30%;
+    height: 300px;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0px;
+    object-fit: contain;
+}
+
+.case-study .card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.case-study .card-title {
+    font-family: "Josefin Sans", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.case-study .card-overview {
+    font-family: "Cormorant", serif;
+    font-size: 16px;
+    color: #616161;
+    font-weight: lighter;
+}
+
+.case-study .card-text {
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    /* line-height: 36px; */
+    color: #616161;
+    font-weight: lighter;
+}
+
+@media screen and (max-width:475px) {
+    .case-study .card {
+        font-size: 0.9em;
+    }
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 0px 0px;
+    color: #9BAD74;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+}
+
+.read-more:hover {
+    color: red;
+}
+
+.about .pt-3 {
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    /* line-height: 36px; */
+    color: #616161;
+    font-weight: lighter;
+}
+
+.title {
+    font-family: "Josefin Sans", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+footer {
+    font-family: "Josefin Sans", serif;
+    padding: 20px;
+    background: #F4F4F4;
+    color: #333;
+}
+
+.email {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    color: #616161;
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+}
+
+.fa-brands {
+    color: #9BAD74;
+}
+
+.col-md-3 h6 {
+    font-weight: lighter !important;
+    color: #F0EEE7;
+}
+
+.links a {
+    text-decoration: none;
+    color: #616161;
+    font-family: "Cormorant", serif;
+}
+
+.about-h2 {
+    font-family: "Josefin Sans", serif;
+}
+.quote{
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    font-size: 30px;
+    color: #616161;
+}
