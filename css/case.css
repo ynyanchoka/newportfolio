@@ -41,10 +41,11 @@ body {
     background-color: black;
     min-height: 70vh;
     color: #F8F9FA;
-    display: flex;              
-    align-items: center;        
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
+
 .title {
     font-family: "Josefin Sans", serif;
     font-size: 40px;
@@ -58,6 +59,7 @@ body {
     color: #F4F4F4;
     font-weight: lighter;
 }
+
 .title2 {
     font-family: "Josefin Sans", serif;
     font-size: 30px;
@@ -71,12 +73,14 @@ body {
     color: #616161;
     font-weight: lighter;
 }
-.text-paragraph3{
+
+.text-paragraph3 {
     font-family: "Cormorant", serif;
     font-size: 20px;
     color: #616161;
     font-weight: bold;
 }
+
 .read-more {
     display: inline-block;
     margin-top: 8px;
