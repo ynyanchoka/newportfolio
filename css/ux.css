@@ -12,6 +12,10 @@ body {
     background-color: #F8F9FA;
 }
 
+.navbar .container {
+    max-width: 70em;
+}
+
 .navbar-brand {
     font-family: "Josefin Sans", serif;
     font-size: 30px;
@@ -74,9 +78,9 @@ body {
 
 .case-study .card-overview {
     font-family: "Cormorant", serif;
-    font-size: 16px;
-    color: #616161;
-    font-weight: lighter;
+    font-size: 18px;
+    color: #9BAD74;
+    font-weight: bold;
 }
 
 .case-study .card-text {
@@ -90,6 +94,36 @@ body {
 @media screen and (max-width:475px) {
     .case-study .card {
         font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .case-study .card {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .case-study .card img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .case-study .card-body {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        text-align: center; */
+    }
+
+    .case-study .card-title {
+        font-size: 24px;
+    }
+
+    .case-study .card-overview,
+    .case-study .card-text,
+    .read-more {
+        font-size: 16px;
     }
 }
 
@@ -163,4 +197,45 @@ footer {
     font-style: italic;
     font-size: 30px;
     color: #616161;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #9BAD74;
+}
+
+.github,
+.behance,
+.linkedin,
+.email {
+    background: #F8F9FA;
+    color: black !important;
+}
+
+.content {
+    margin-right: -75px;
+    font-size: 30px;
+}
+.about {
+    max-width: 70em;
+}
+.custom-img {
+    width: 80%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
 }

@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ymelda Monari | UX Case Studies</title>
-    <link rel="icon" type="image/x-icon" href="./images/ym.svg">
+    <link rel="icon" type="image/x-icon" href="./images/YMLOGO.png">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +25,9 @@
     <!-- Bootstrap navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand " href="./index.html">YMELDA MONARI</a>
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/YMLOGO.png" alt="Logo" width="30% " class="d-inline-block align-text-top">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,7 +35,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">PROJECTS</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">ABOUT</a>
@@ -43,24 +46,24 @@
     </nav>
 
     <main>
-        <div class="container case-study pt-5">
-            <!-- exams -->
-            <div class="card">
-                <img src="./images/exams.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <div class="text-section">
-                        <h5 class="card-title">Exam management platform</h5>
-                        <p class="card-overview">UX Design</p>
-                        <p class="card-text"> A platform that manages student data in large schools—encompassing
-                            subjects, grading, and attendance.The main aim is to prevent data entry and reporting
-                            errors.
-                        </p>
-                        <a href="./case-studies/exams.html" class="read-more">Read More</a>
+        <section>
+            <div class="container case-study pt-5">
+                <!-- exams -->
+                <div class="card">
+                    <img src="./images/exams.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="text-section">
+                            <h5 class="card-title">Exam management platform</h5>
+                            <p class="card-overview">UX Design</p>
+                            <p class="card-text"> A platform that manages student data in large schools—encompassing
+                                subjects, grading, and attendance.The main aim is to prevent data entry and reporting
+                                errors.
+                            </p>
+                            <a href="./case-studies/exams.html" class="stretched-link"></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <section class="mt-5">
             <div class="container case-study pt-5">
                 <!-- church admin platform -->
                 <div class="card">
@@ -73,7 +76,7 @@
                                 community management, improving communication, donation management, event organization,
                                 and content dissemination.
                             </p>
-                            <a href="/case-studies/church.html" class="read-more">Read More</a>
+                            <a href="./case-studies/church.html" class="stretched-link"></a>
                         </div>
                     </div>
                 </div>
@@ -90,12 +93,12 @@
                                 marketing tool to attract guests, provides a mobile-friendly design, and ensures a
                                 seamless booking experience.
                             </p>
-                            <a href="https://www.clemsahouse.com/" target="_blank" class="read-more">Read More</a>
+                            <a href="https://www.clemsahouse.com/" class="stretched-link" target="_blank"></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container case-study">
+            <div class="container case-study pt-5">
                 <!-- nannies -->
                 <div class="card">
                     <img src="./images/Nannies.png" class="card-img-top" alt="...">
@@ -106,7 +109,7 @@
                             <p class="card-text">A platform I designed to connect parents with trusted nannies. I
                                 focused on intuitive UX, seamless navigation, and a smooth sign-up process, leading to a
                                 40% increase in user sign-ups and improved nanny placements.</p>
-                            <a href="https://nanny.ikazi.co/index.html" target="_blank" class="read-more">Read More</a>
+                            <a href="https://nanny.ikazi.co/" class="stretched-link" target="_blank"></a>
                         </div>
                     </div>
                 </div>
@@ -117,13 +120,13 @@
                     <img src="./images/trendy.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="text-section">
-                            <h5 class="card-title">Trendy AI</h5>
+                            <h5 class="card-title">Trend AI</h5>
                             <p class="card-overview">UI/UX Design</p>
                             <p class="card-text">Redesigning the micro influencer view to enhance the user experience by
                                 simplifying navigation, improving task management, and making campaign details easily
                                 accessible.
                             </p>
-                            <a href="./case-studies/trendy.html" class="read-more">Read More</a>
+                            <a href="./case-studies/trendy.html" class="stretched-link"></a>
                         </div>
                     </div>
                 </div>
@@ -141,13 +144,11 @@
                             <p class="card-text">I developed a single-page application using Angular to enhance my
                                 proficiency with the framework.The experience deepened my understanding of Angular's
                                 architecture and improved my skills in building efficient, modular applications.</p>
-                            <a href="https://ynyanchoka.github.io/Quotes/" target="_blank" class="read-more">Read
-                                More</a>
+                            <a href="https://ynyanchoka.github.io/Quotes/" class="stretched-link" target="_blank"></a>
                         </div>
                     </div>
                 </div>
             </div>
-            ÷∆
             <div class="container case-study pt-5 pb-5">
                 <!-- Fursa -->
                 <div class="card">
@@ -158,18 +159,24 @@
                             <p class="card-overview">UI Design</p>
                             <p class="card-text">A website for a charity organisation.The design focuses on a clean,
                                 compassionate, and accessible layout that fosters trust and encourages involvement.</p>
-                            <a href="https://www.figma.com/proto/R2FPiVi05HHRWvL0DkJJ56/Charity?page-id=0%3A1&node-id=27-2&node-type=frame&viewport=-712%2C402%2C0.34&t=zk7lZy3euzkqRxx7-1&scaling=scale-down&content-scaling=fixed"
-                                target="_blank" class="read-more">Read More</a>
+                            <a href="https://www.figma.com/proto/R2FPiVi05HHRWvL0DkJJ56/Charity?page-id=0%3A1&node-id=27-2&node-type=frame&viewport=-712%2C402%2C0.34&t=zk7lZy3euzkqRxx7-1&scaling=scale-down&content-scaling=fixed" class="stretched-link" target="_blank"></a>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="icon-bar">
+            <a href="mailto:monaryymelda@gmail.com" class="email"><i class="fa fa-envelope fa-sm"></i></a>
+            <a href="https://www.linkedin.com/in/ymeldamonari/" class="linkedin" target="_blank"><i class="fa fa-linkedin fa-sm"></i></a>
+            <a href="https://github.com/ynyanchoka" class="github" target="_blank"><i class="fa fa-github fa-sm"></i></a>
+            <a href="https://www.behance.net/ymeldamonari" class="behance" target="_blank"><i class="fa fa-behance fa-sm"></i></a>
+        </div>
     </main>
     <footer class="text-center">
         <p>&copy; 2025 Ymelda Monari. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </html>
