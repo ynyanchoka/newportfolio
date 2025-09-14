@@ -85,6 +85,7 @@ body {
 
 .case-study .card-text {
     font-family: "Cormorant", serif;
+    /* font-family: "Josefin Sans", sans-serif; */
     font-size: 20px;
     /* line-height: 36px; */
     color: #616161;
@@ -239,3 +240,17 @@ footer {
     object-fit: cover;
     object-position: center;
 }
+.custom-img {
+  opacity: 0;
+  transform: translateY(30px); /* start slightly lower */
+  animation: fadeUp 1.2s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
