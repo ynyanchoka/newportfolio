@@ -147,19 +147,40 @@ body {
 
 .about .pt-3 {
     /* font-family: "Cormorant", serif; */
-    font-family: "Josefin Sans", serif;
+    font-family: "Josefin Sans", serif !important;
     font-size: 20px;
     line-height: 1.6;
     color: #616161;
     font-weight: 300;
 }
 
+.skills {
+    font-family: "Josefin Sans", serif !important;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #616161;
+    font-weight: 300;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .title {
     /* font-family: "Josefin Sans", serif; */
-    font-family: "Cormorant", serif; 
+    font-family: "Cormorant", serif;
     font-size: 30px;
     text-transform: uppercase;
     color: #313131;
+}
+
+.title2 {
+    color: #9BAD74;
+    font-family: "Cormorant", serif;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 footer {
@@ -235,26 +256,15 @@ footer {
     margin-right: -75px;
     font-size: 30px;
 }
+
 .about {
     max-width: 70em;
 }
+
 .custom-img {
     width: 80%;
     height: 450px;
     object-fit: cover;
     object-position: center;
 }
-.custom-img {
-  opacity: 0;
-  transform: translateY(30px); /* start slightly lower */
-  animation: fadeUp 1.2s ease-out forwards;
-}
-
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 
