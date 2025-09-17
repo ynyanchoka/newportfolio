@@ -267,4 +267,8 @@ footer {
     object-fit: cover;
     object-position: center;
 }
+.email-link {
+    text-decoration: none !important;  
+    color: #898888;      
+  }
 

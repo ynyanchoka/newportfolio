@@ -192,4 +192,8 @@ footer {
     transform: translateX(0);
     opacity: 1;
   }
+  .email-link {
+    text-decoration: none;  
+    color: inherit;      
+  }
   
