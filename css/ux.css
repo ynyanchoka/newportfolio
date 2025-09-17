@@ -35,7 +35,7 @@ body {
 }
 
 .nav-link:hover {
-    border-bottom: 3px solid #9BAD74;
+    /* border-bottom: 3px solid #9BAD74; */
     color: #9BAD74 !important;
 }
 
