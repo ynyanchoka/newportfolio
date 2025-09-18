@@ -218,9 +218,15 @@ footer {
     font-family: "Josefin Sans", serif;
 }
 
+.display-5 {
+    font-family: "Josefin Sans", serif;
+    color: #616161;
+
+}
+
 .quote {
     font-family: "Cormorant", serif;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 30px;
     color: #616161;
 }
@@ -267,8 +273,8 @@ footer {
     object-fit: cover;
     object-position: center;
 }
-.email-link {
-    text-decoration: none !important;  
-    color: #898888;      
-  }
 
+.email-link {
+    text-decoration: none !important;
+    color: #898888;
+}
